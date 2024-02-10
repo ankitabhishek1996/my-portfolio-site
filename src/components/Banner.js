@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Ankit`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Java Developer", "Spring Developer", "React Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Results-Driven Software Developer with 2.5 years of experience, I have developed and tested Java-based web apps using Spring Boot, PostgreSQL, CircleCI, Mybatis,JUnit, and Amazon S3. I am committed to delivering high-quality software solutions. </p>
+                  <p style={{color:"black"}}>Results-Driven Software Developer with 2.5 years of experience, I have developed and tested Java-based web apps using Spring Boot, PostgreSQL, CircleCI, Mybatis,JUnit, and Amazon S3. I am committed to delivering high-quality software solutions. </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
