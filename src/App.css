@@ -647,3 +647,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%; /* Take the full height of the parent */
 }
 
+.inverted-image {
+  filter: invert(100%);
+}
+
+
